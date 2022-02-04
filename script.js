@@ -6,3 +6,4 @@ var vasya = {
     alert(`Hello, my name is ${this.name}!`);
   }
 }
+vasya.greet();
