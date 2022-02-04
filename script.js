@@ -23,5 +23,7 @@ var vasya = {
 //4. Create method `bye`.
 
 
-document.body.textContent = "Hello world";
-document.body.style.background = "red";
+// document.body.textContent = "Hello world";
+// document.body.style.background = "red";
+
+document.getElementById("hello-world").textContent = "Nice to meet you!";
