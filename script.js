@@ -40,4 +40,6 @@ let allParagraphs = document.getElementsByTagName("p");
 
 for (let paragraph of allParagraphs) {
   paragraph.style.backgroundColor = "blue";
+  paragraph.style.color = "tomato";
+  paragraph.style.fontWeight = "bold";
 }
