@@ -55,5 +55,11 @@ let allHelloWorlds = document.getElementsByClassName("hello-world");
 for (let helloWorld of allHelloWorlds) {
   helloWorld.style.fontFamily = "cursive";
   helloWorld.style.color = "tomato";
-  helloWorld.style.fontWeight = "bold";
+  helloWorld.style.fontStyle = "italic";
 }
+
+
+//querySelector
+ 
+let helloWorld2 = document.querySelector("#hello-world");
+helloWorld2.style.backgroundColor = "purple";
