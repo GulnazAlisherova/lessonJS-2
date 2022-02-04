@@ -36,4 +36,6 @@ helloWorldDiv.style.textDecoration = "underline";
 helloWorldDiv.style.fontSize = "28px";
 
 //getElementbyTagName
-let allParagraphs = document.getElementsByTagName("p")
+let allParagraphs = document.getElementsByTagName("p");
+
+console
