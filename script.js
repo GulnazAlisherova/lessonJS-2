@@ -38,4 +38,6 @@ helloWorldDiv.style.fontSize = "28px";
 //getElementbyTagName
 let allParagraphs = document.getElementsByTagName("p");
 
-console
+for (let paragraph of allParagraphs) {
+  paragraph.style.backgroundColor = "blue";
+}
