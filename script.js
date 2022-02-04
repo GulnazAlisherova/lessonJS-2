@@ -26,6 +26,7 @@
 // document.body.textContent = "Hello world";
 // document.body.style.background = "red";
 
+//GetelementbyId
 
 let helloWorldDiv = document.getElementById("hello-world"); //можно не только Id но и Divы классы
 
@@ -34,3 +35,5 @@ helloWorldDiv.style.background = "green";
 helloWorldDiv.style.textDecoration = "underline";
 helloWorldDiv.style.fontSize = "28px";
 
+//getElementbyTagName
+let allParagraphs = document.getElementsByTagName("p")
