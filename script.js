@@ -21,3 +21,7 @@ var vasya = {
 //2. Include age in the greeting.
 //3. Try chaging name and age.
 //4. Create method `bye`.
+
+
+document.body.textContent = "Hello world";
+document.body.style.background = "red";
