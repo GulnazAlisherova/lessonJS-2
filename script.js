@@ -69,3 +69,7 @@ let allHelloWorlds2 = document.querySelectorAll(".hello-world");
 for (let helloWorld of allHelloWorlds2) {
   helloWorld.style.fontSize = "5px";
 }
+
+let test = document.querySelector(`p:first-of-type`).textContent = "HELLO";
+
+//дает гибкость
