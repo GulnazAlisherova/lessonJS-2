@@ -36,10 +36,24 @@ helloWorldDiv.style.textDecoration = "underline";
 helloWorldDiv.style.fontSize = "28px";
 
 //getElementbyTagName
+
+
 let allParagraphs = document.getElementsByTagName("p");
 
 for (let paragraph of allParagraphs) {
   paragraph.style.backgroundColor = "lightBlue";
   paragraph.style.color = "tomato";
   paragraph.style.fontWeight = "bold";
+}
+
+// getElementsByClassName
+
+//нello world rursivetext-red
+
+let allHelloWorlds = document.getElementsByClassName("hello-world");
+
+for (let helloWorld of allHelloWorlds) {
+  helloWorld.style.fontFamily = "cursive";
+  helloWorld.style.color = "tomato";
+  helloWorld.style.fontWeight = "bold";
 }
