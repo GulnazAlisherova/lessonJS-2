@@ -1,21 +1,21 @@
-var vasya = {
-  name:"Petr",
-  lastName:"Petrovskyi",
-  age: 25,
-  hobbies:{
-    art: "Drawing, singing",
-    display: function(){
-      document.write(`I love ${this.hobbies.art}.`);
-   },
-  },
-  greet: function(){ //methods
-    alert(`Hello, my name is ${this.name}! I am ${this.age} years old.`)
-  }
- }
+// var vasya = {
+//   name:"Petr",
+//   lastName:"Petrovskyi",
+//   age: 25,
+//   hobbies:{
+//     art: "Drawing, singing",
+//     display: function(){
+//       document.write(`I love ${this.hobbies.art}.`);
+//    },
+//   },
+//   greet: function(){ //methods
+//     alert(`Hello, my name is ${this.name}! I am ${this.age} years old.`)
+//   }
+//  }
  
- vasya.greet();
+//  vasya.greet();
 
- document.write(vasya.lastName); //на странице
+//  document.write(vasya.lastName); //на странице
 
 //1. Call `greet` method multiple times.
 //2. Include age in the greeting.
@@ -26,4 +26,10 @@ var vasya = {
 // document.body.textContent = "Hello world";
 // document.body.style.background = "red";
 
-document.getElementById("hello-world").textContent = "Nice to meet you!";
+
+let helloWorldDiv = document.getElementById("hello-world");
+
+helloWorldDiv.textContent = "Nice to meet you!";
+helloWorldDiv.style.background = "green";
+helloWorldDiv.style.textDecoration = "underline";
+helloWorldDiv.style.fontSize = "28px";
