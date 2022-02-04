@@ -72,4 +72,5 @@ for (let helloWorld of allHelloWorlds2) {
 
 let test = document.querySelector(`p:first-of-type`).textContent = "HELLO";
 
-//дает гибкость
+//дает гибкость 
+
