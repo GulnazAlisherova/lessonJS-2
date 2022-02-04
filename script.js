@@ -63,3 +63,9 @@ for (let helloWorld of allHelloWorlds) {
  
 let helloWorld2 = document.querySelector("#hello-world");
 helloWorld2.style.backgroundColor = "purple";
+
+let allHelloWorlds2 = document.querySelectorAll(".hello-world");
+
+for (let helloWorld of allHelloWorlds2) {
+  helloWorld.style.fontSize = "5px";
+}
