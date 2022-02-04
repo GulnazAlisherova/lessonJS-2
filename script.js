@@ -27,9 +27,10 @@
 // document.body.style.background = "red";
 
 
-let helloWorldDiv = document.getElementById("hello-world");
+let helloWorldDiv = document.getElementById("hello-world"); //можно не только Id но и Divы классы
 
 helloWorldDiv.textContent = "Nice to meet you!";
 helloWorldDiv.style.background = "green";
 helloWorldDiv.style.textDecoration = "underline";
 helloWorldDiv.style.fontSize = "28px";
+
